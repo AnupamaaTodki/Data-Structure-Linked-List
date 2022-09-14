@@ -41,9 +41,9 @@ public class SimpleLinkedList {
 
 public static void main(String[] args) {
 	SimpleLinkedList list = new SimpleLinkedList();
-	list = insert(list, 56);
-	list = insert(list, 30);
 	list = insert(list, 70);
+	list = insert(list, 30);
+	list = insert(list, 56);
 	printList(list);
 }
 }
