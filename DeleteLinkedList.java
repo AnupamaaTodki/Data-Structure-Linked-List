@@ -67,7 +67,7 @@ public static void main(String[] args) {
 	list = insert(list, 30);
 	list = insert(list, 70);
 	printList(list);
-	deleteByKey(list, 70);
+	deleteByKey(list, 56);
 	printList(list);
 }
 }
